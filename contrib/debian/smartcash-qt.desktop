@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=SmartCash Core
+Comment=Connect to the SmartCash P2P Network
+Comment[de]=Verbinde mit dem SmartCash peer-to-peer Netzwerk
+Comment[fr]=SmartCash, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=SmartCash, eşten eşe kriptografik sanal para birimi
+Exec=smartcash-qt %u
+Terminal=false
+Type=Application
+Icon=smartcash128
+MimeType=x-scheme-handler/smartcash;
+Categories=Office;Finance;

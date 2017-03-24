@@ -1,0 +1,8 @@
+/usr/bin/smartcash-cli		--	gen_context(system_u:object_r:smartcash_exec_t,s0)
+/usr/sbin/smartcashd		--	gen_context(system_u:object_r:smartcash_exec_t,s0)
+/usr/lib(64)?/smartcash/smartcashd		--	gen_context(system_u:object_r:smartcash_exec_t,s0)
+
+/etc/smartcash(/.*)?		gen_context(system_u:object_r:smartcash_conf_t,s0)
+/var/lib/smartcash(/.*)?		gen_context(system_u:object_r:smartcash_var_lib_t,s0)
+
+(/var)?/run/smartcashd(/.*)?   gen_context(system_u:object_r:smartcash_var_run_t,s0)

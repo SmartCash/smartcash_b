@@ -1,5 +1,5 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
-// Copyright (c) 2009-2016 The Bitcoin Core developers
+// Copyright (c) 2009-2016 The SmartCash Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -26,7 +26,7 @@ void InitLogging();
 //!Parameter interaction: change current parameters depending on various rules
 void InitParameterInteraction();
 
-/** Initialize bitcoin core: Basic context setup.
+/** Initialize smartcash core: Basic context setup.
  *  @note This can be done before daemonization.
  *  @pre Parameters should be parsed and config file should be read.
  */
@@ -44,7 +44,7 @@ bool AppInitParameterInteraction();
  */
 bool AppInitSanityChecks();
 /**
- * Bitcoin core main initialization.
+ * SmartCash core main initialization.
  * @note This should only be done after daemonization.
  * @pre Parameters should be parsed and config file should be read, AppInitSanityChecks should have been called.
  */

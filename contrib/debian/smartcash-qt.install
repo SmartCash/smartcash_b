@@ -1,0 +1,6 @@
+usr/local/bin/smartcash-qt usr/bin
+share/pixmaps/smartcash32.xpm usr/share/pixmaps
+share/pixmaps/smartcash16.xpm usr/share/pixmaps
+share/pixmaps/smartcash128.png usr/share/pixmaps
+debian/smartcash-qt.desktop usr/share/applications
+debian/smartcash-qt.protocol usr/share/kde4/services/
