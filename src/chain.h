@@ -415,6 +415,12 @@ public:
         block.nNonce          = nNonce;
         return block.GetHash();
     }
+    
+    uint256 GetBlockLyra2ZHash() const
+    {
+        return GetBlockHeader().GetLyra2ZHash();
+    }
+
 
 
     std::string ToString() const

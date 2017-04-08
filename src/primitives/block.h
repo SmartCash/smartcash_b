@@ -61,6 +61,8 @@ public:
     }
 
     uint256 GetHash() const;
+    
+    uint256 GetLyra2ZHash() const;
 
     int64_t GetBlockTime() const
     {
